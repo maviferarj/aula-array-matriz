@@ -1,0 +1,13 @@
+<?php 
+$dado = array (
+
+    array("nome" => "Luciano", "idade" => 10),
+    array("nome" => "Pedro", "idade" => 20),
+    array("nome" => "Mariana", "idade" => 50),
+    array("nome" => "giovana", "idade" => 2),
+);
+
+    foreach($dado as $d){
+        echo "\nNome: ".$d['nome']. "Idade: ".$d['idade'];
+    }
+?>
